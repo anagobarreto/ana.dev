@@ -1,6 +1,22 @@
 body {
-  background-color: teal;
+  background-color: rgba(40, 62, 46, 0.6);
   font: 150px;
-  color: black;
+  color: white;
   margin: 50px;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("back.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  z-index: -1;
 }
