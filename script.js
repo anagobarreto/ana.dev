@@ -11,3 +11,11 @@ $(document).ready(function() {
     event.stopPropagation();
   });
 });
+
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+
+gtag("config", "UA-91789911-4");
