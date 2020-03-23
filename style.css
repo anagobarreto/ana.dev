@@ -5,6 +5,8 @@ body {
   background-color: #021106;
   color: rgba(255, 255, 255, 0.9);
   font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .bg-img {
@@ -14,6 +16,11 @@ body {
   background: url("https://images.unsplash.com/photo-1533563906091-fdfdffc3e3c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80")
     center center no-repeat;
   background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 h1 {
@@ -33,7 +40,7 @@ a {
   text-decoration: none;
 }
 
-h1 {
+.open h1 {
   width: 100%;
   text-align: center;
   padding: 40px 0;
@@ -153,4 +160,22 @@ h1 {
 }
 .opened li {
   margin-right: 168px;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
+  height: 90%;
+}
+
+.about {
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  position: absolute;
+  margin-top: 150px;
+  color: white;
+  background-color: rgba(0, 53, 47, 0.54);
+  border-radius: 8px;
+  padding: 20px;
 }
