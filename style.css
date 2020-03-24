@@ -21,6 +21,12 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
+  z-index: 1;
+}
+
+.main {
+  z-index: 2;
+  position: absolute;
 }
 
 h1 {
@@ -174,8 +180,42 @@ a {
   margin: 0 auto;
   position: absolute;
   margin-top: 150px;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   background-color: rgba(0, 53, 47, 0.54);
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 20px;
+  text-shadow: 3px 2px #000;
+}
+
+.about h1 {
+  margin-top: 5px;
+}
+
+.about p {
+  font-weight: 800;
+}
+
+.buttons {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.button {
+  background-color: #6f2232;
+  width: 300px;
+  height: 100px;
+  font-size: 20px;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: white;
+}
+
+.button one {
+  border-radius: 2px;
 }
