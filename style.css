@@ -26,7 +26,7 @@ body {
 
 .main {
   z-index: 2;
-  position: absolute;
+  position: relative;
 }
 
 h1 {
@@ -60,6 +60,7 @@ a {
   display: block;
   cursor: pointer;
   transition: opacity 0.2s linear;
+  z-index: 2;
 }
 .open:hover {
   opacity: 0.8;
@@ -196,14 +197,16 @@ a {
 }
 
 .buttons {
-  margin: 0 auto;
+  width: 370px;
+  height: 180px;
+  background-color: black;
   padding: 10px;
 }
 
 .button {
   background-color: #6f2232;
-  width: 300px;
-  height: 100px;
+  width: 100px;
+  height: 40px;
   font-size: 20px;
   display: inline-block;
   padding: 5px;

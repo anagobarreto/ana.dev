@@ -1,0 +1,15 @@
+{
+  "name": "ana.dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:anagobarreto/ana.dev.git",
+  "author": "Anacgbarreto <anacgbarreto@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "scripts": {
+    "build": "pug .",
+    "watch": "pug . --watch"
+  }
+}
