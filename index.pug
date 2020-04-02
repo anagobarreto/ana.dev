@@ -1,25 +1,11 @@
 doctype html
 html
   head
-    script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-91789911-4')
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js')
-    script(src='script.js')
-    link(href='style.css', rel='stylesheet')
-    link(href='https://fonts.googleapis.com/css2?family=Nunito&display=swap', rel='stylesheet')
+    include includes/head.pug
     title Ana Barreto
   body
     .bg-img
     .main
       h1
         | Ana Barreto
-      .open
-        span.cls
-        span
-          ul.sub-menu
-            li
-              a(href='about', title='about') About
-            li
-              a(href='work', title='skills') Portfolio
-            li
-              a(href='contact', title='contact') Contact
-        span.cls
+      include includes/navbar.pug
