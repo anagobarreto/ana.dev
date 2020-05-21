@@ -260,7 +260,7 @@ a {
   color: #fff;
   padding: 10px;
   box-sizing: border-box;
-  font-size: 150%;
+
   position: relative;
 }
 
@@ -283,7 +283,7 @@ a {
 }
 
 .box a {
-  font-size: 37px;
+  font-size: 30px;
   display: none;
   align-items: center;
   justify-content: center;
